@@ -18,7 +18,6 @@ function AddImage() {
 
       if (response.status === 200) {
         alert('Successfully analyzed image');
-        // Redirect to ViewChemical after uploading the image
         navigate('/ViewChemical');
       } else {
         console.log('Error:', response.data);

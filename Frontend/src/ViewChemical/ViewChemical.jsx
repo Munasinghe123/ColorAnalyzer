@@ -8,7 +8,6 @@ function ViewChemical() {
     const [imageUrl, setImageUrl] = useState(null);
 
     useEffect(() => {
-        // Fetch chemical amount from the backend
         const fetchChemical = async () => {
             try {
                 const response = await axios.get('http://localhost:7001/api/images/getAmount');
@@ -32,7 +31,7 @@ function ViewChemical() {
     }, []);
 
     return (
-        <div className="container">
+        <div className="view-container">
             <h1>View Chemical Percentage</h1>
 
             {loading ? (
