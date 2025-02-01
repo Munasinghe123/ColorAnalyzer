@@ -1,0 +1,45 @@
+/* ViewChemical.css */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f7f6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    color: #555;
+    margin-top: 20px;
+}
+
+.loading {
+    font-size: 18px;
+    color: #ffa500;
+    text-align: center;
+    font-weight: bold;
+}
+
+.error {
+    font-size: 18px;
+    color: #d9534f;
+    text-align: center;
+    font-weight: bold;
+}
+
+.result {
+    font-size: 22px;
+    color: #28a745;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
